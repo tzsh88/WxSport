@@ -1,0 +1,50 @@
+<view class="continer">
+  <!--内容主体-->  
+  <swiper class="swiper" current="0" duration="200"  bindchange="swiperChange" previous-margin="20px" next-margin="20px"  style="height: {{winHeight}}px;">  
+     
+        <swiper-item> 
+          <view class="user-box" style="height: {{winHeight-40}}px;">
+            <view class="user-image">
+              <image class="image" src='{{headImageurl}}' />
+            </view> 
+
+            <view class="user-info">
+              <view class="user-job">天子神话</view>
+              <view class="user-name">学生党</view>
+              <view class="user-introduce">此小程序开发完全出于个人爱好，持续开发中......
+              </view>            
+            <view class="joinin" bindtap="joinIn">关注最新动态</view>
+            </view>            
+          </view>
+        </swiper-item> 
+        <swiper-item> 
+          <view class="user-box" style="height: {{winHeight-40}}px;">
+            <view class="user-image">
+              <image class="image" src='{{headImageurl}}'  />
+            </view> 
+
+            <view class="user-info">
+              <view class="user-job">敲代码</view>
+              <view class="user-name">苦逼</view>
+               <view class="user-introduce">如对广告反感，联系我索要纯净版</view>
+              <view class="joinin" bindtap="joinIn">联系我</view>
+            </view>            
+          </view>
+        </swiper-item> 
+        <swiper-item> 
+          <view class="user-box" style="height: {{winHeight-40}}px;">
+            <view class="user-image">
+              <image class="image" src='{{headImageurl}}'  />
+            </view> 
+
+            <view class="user-info">
+               <view class="user-job">敲代码</view>
+              <view class="user-name">苦逼</view>
+              <view class="user-introduce">如对广告反感，联系我索要纯净版</view>
+              <view class="joinin" bindtap="joinIn">联系我</view>
+            </view>            
+          </view>
+        </swiper-item> 
+      
+  </swiper> 
+</view>

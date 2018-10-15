@@ -1,0 +1,6 @@
+<view class="container log-list">
+
+    <view class='runList' wx:for="{{wxRundata}}" >
+      {{item.timestamp}}:{{item.step}}
+    </view>
+</view>

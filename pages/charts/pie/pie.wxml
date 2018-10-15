@@ -1,0 +1,44 @@
+<view class="charts">
+   <view class='chart_title'>{{title}}</view>
+    <canvas canvas-id="pieCanvas" class="canvas" style="height:255px" bindtouchstart="touchStartHandler"></canvas>
+</view>
+ <view class="table" >
+        <view class="tr">
+            <view class="td">周日</view>
+            <view class="td">{{week7.dataSum}}步</view>
+            <view class="td" data-Week='7' bindtap='touchHandle'style='color:red'>detail</view>
+        </view>
+         <view class="tr">
+            <view class="td">周一</view>
+            <view class="td">{{week1.dataSum}}步</view>
+            <view class="td" data-Week='1' bindtap='touchHandle' style='color:red'>detail</view>
+        </view>
+        <view class="tr">
+            <view class="td">周二</view>
+            <view class="td">{{week2.dataSum}}步</view>
+            
+            <view class="td" data-Week='2' bindtap='touchHandle' style='color:red'>detail</view>
+        </view>
+        <view class="tr">
+            <view class="td">周三</view>
+            <view class="td">{{week3.dataSum}}步</view>
+            <view class="td" data-Week='3' bindtap='touchHandle' style='color:red' >detail</view>
+        </view>
+        <view class="tr">
+            <view class="td">周四</view>
+            <view class="td">{{week4.dataSum}}步</view>
+            <view class="td" data-Week='4' bindtap='touchHandle' style='color:red' >detail</view>
+        </view>
+        <view class="tr">
+            <view class="td">周五</view>
+            <view class="td">{{week5.dataSum}}步</view>
+            <view class="td" data-Week='5' bindtap='touchHandle' style='color:red'>detail</view>
+        </view>
+        <view class="tr">
+            <view class="td">周六</view>
+            <view class="td" >{{week6.dataSum}}步</view>
+            <view class="td" data-Week='6' bindtap='touchHandle' style='color:red' >detail</view>
+        </view> 
+        
+</view>
+<ad style="margin-top:5px" unit-id="adunit-62268a01ad6a676b"></ad>

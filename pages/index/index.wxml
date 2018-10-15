@@ -1,0 +1,24 @@
+<!--index.wxml-->
+
+<view class="container">
+  <view class="userinfo">
+      <open-data class="userinfo-avatar" type="userAvatarUrl" ></open-data>
+      <open-data class="userinfo-nickname" type="userNickName" lang="zh_CN"></open-data>
+  </view>
+  <view class="usermotto">
+
+    <text class='userRunData' style="color:red"> 每天多点运动\n</text> 
+    <text id="AD" class='userRunData' style="color:blue ;font-size:16px"> 
+      (图表展现您运动量，提供规划参考)\n
+      完善中......\n
+    </text>
+    <text class="user-motto">{{motto}}\n\n</text>
+  
+    <button   bindtap='goToPage' wx:if="{{flag}}" open-type='getUserInfo'  class='button' style="font-size:13px;display:{{display}}"> 展示</button>
+     <button class='button' wx:else open-type="openSetting"style="font-size:13px;"  bindopensetting='secondHandler' >授权</button>
+   
+   
+       <ad style="margin-top:30px" unit-id="adunit-138f8961bbae87df"  ></ad>
+   
+  </view>
+</view>

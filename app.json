@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/contact",
+    "pages/runData/runData",
+    "pages/charts/line/line",
+    "pages/charts/pie/pie",
+    "pages/pre/pre"
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/charts/line/line",
+        "iconPath": "image/storage_grey.png",
+        "selectedIconPath": "image/storage_green.png",
+        "text": "统计"
+      },
+      {
+        "pagePath": "pages/pre/pre",
+        "text": "预测"
+      },
+      {
+        "pagePath": "pages/about/contact",
+        "iconPath": "image/wechat.png",
+        "selectedIconPath": "image/wechatHL.png",
+        "text": "关于"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

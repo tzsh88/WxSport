@@ -1,0 +1,86 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.charts{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.canvas {
+    width: 100%;
+    height: 250px;
+}
+.chart_title {
+	text-align: center;
+	position: relative;
+	margin-top: 10rpx;
+	margin-bottom: 10px;
+  font-size: 16px;
+}
+.chart_content {
+	text-align: left;
+  margin-top: 10px;
+	margin-left: 20px;
+  font-size: 18px;
+  color: blueviolet;
+}
+.table {
+  border:1px solid #dadada;
+  border-right: 0;
+  border-bottom: 0;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 95%;
+}
+.tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.th,.td {
+  padding: 8px;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+  width:100%
+}
+.td {
+  padding: 2px;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+  height:45rpx;
+  font-size: 32rpx;
+  min-width: 18%;
+  
+}
+.th {
+  font-weight: 400;
+  background-color: #dadada
+}
+.button{
+    width: 100px;
+    text-align: center;
+    height: 35px;
+
+    font-size: 18px;
+    letter-spacing: 8px;
+    border-radius: 8px;
+    background: -webkit-linear-gradient(top, #66B5E6, #2e88c0);
+    background: -moz-linear-gradient(top, #66B5E6, #2e88c0);
+    background: linear-gradient(top, #66B5E6, #2e88c0);
+    background: -ms-linear-gradient(top, #66B5E6, #2e88c0);
+    border: 1px solid #2576A8;
+    box-shadow: 0 1px 2px #B8DCF1 inset, 0 -1px 0 #316F96 inset;
+    color: #fff;
+    text-shadow: 1px 1px 0.5px #22629B;
+}

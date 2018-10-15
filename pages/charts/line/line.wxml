@@ -1,0 +1,49 @@
+<view class="charts">
+    <view class='chart_title'>30天微信运动趋势</view>
+    <canvas canvas-id="lineCanvas" disable-scroll="true" style='height:265px' class="canvas" bindtouchstart="touchHandler" ></canvas>
+</view>
+
+<view class='chart_content' >简单统计 <text style='color: red; float:right' bindtap='moreLink' decode="{{true}}"> More&nbsp;&nbsp;&nbsp;&nbsp;
+      </text>
+</view>
+
+<view id='showData'style="display:{{display}}"> 
+ <view class="table">
+        <!-- <view class="tr">
+            <view class="th">统计量</view>
+            <view class="th">值</view>
+            <view class="th">时间</view>
+        </view> -->
+        <view class="tr">
+            <view class="td">总和</view>
+              <view class="td">{{sumstep}}</view>
+              <view class="td">30天</view>
+             <view class="td">均值</view>
+            <view class="td">{{avgstep}}</view>
+        </view>
+        <view class="tr">
+           
+            
+          
+        </view>
+        <view class="tr">
+            <view class="td">最值</view>
+            <view class="td">{{maxList.step}}</view>
+            
+            <view class="td">{{minList.step}}</view>
+              <view class="td">极差</view>
+            <view class="td">{{maxList.step-minList.step}}</view>
+            <!-- <view class="td">{{maxList.date}}</view> -->
+        </view>
+       
+        <!-- <view class="tr">
+            <view class="td">极差</view>
+            <view class="td">{{maxList.step-minList.step}}</view>
+            <view class="td"></view>
+        </view> -->
+    </view>
+   <!-- <text>最大值：{{maxList.step}} 日期：{{maxList.date}}\n </text>
+   <text>最小值：{{minList.step}} 日期：{{minList.date}} \n</text>
+   <text>平均值：{{avgstep}}</text> -->
+</view>
+   <ad style="margin-top:30px" unit-id="adunit-8f4a84d62a193c8c"></ad>

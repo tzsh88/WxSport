@@ -1,0 +1,39 @@
+<view class="charts">
+    <view class='chart_title'>未来7天运动预测</view>
+    <canvas canvas-id="columnCanvas" disable-scroll="true" class="canvas"  ></canvas>
+</view>
+
+<view class='chart_content' >简单统计 <text style='color: red; font-size:25rpx; float:right' decode="{{true}}"> 数据不一定可靠不必当真&nbsp;&nbsp;&nbsp;&nbsp;
+      </text>
+</view>
+
+<view id='showData'style="display:{{display}};"> 
+ <view class="table" >
+        <view class="tr">
+            <view class="td" >{{categories[0]}}</view>
+            <view class="td">{{cdata[0]}}</view>
+            <view class="td" >{{categories[1]}}</view>
+            <view class="td">{{cdata[1]}}</view>
+        </view>
+
+        <view class="tr">
+           <view class="td" >{{categories[2]}}</view>
+            <view class="td">{{cdata[2]}}</view>
+            <view class="td" >{{categories[3]}}</view>
+            <view class="td">{{cdata[3]}}</view>
+        </view>
+        <view class="tr">
+           <view class="td" >{{categories[4]}}</view>
+            <view class="td">{{cdata[4]}}</view>
+            <view class="td" >{{categories[5]}}</view>
+            <view class="td">{{cdata[5]}}</view>
+        </view>
+        <view class="tr">
+          <view class="td" >{{categories[6]}}</view>
+          <view class="td">{{cdata[6]}}</view>
+        </view>  
+    </view>
+  
+</view>
+<ad style="margin-top:20px" unit-id="adunit-2d804837b58111f3"></ad>
+   

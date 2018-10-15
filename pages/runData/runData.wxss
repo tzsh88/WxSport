@@ -1,0 +1,11 @@
+/* pages/runData/runData.wxss */
+.runList{
+  margin-left:50rpx;
+  
+  
+}
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx;
+}
