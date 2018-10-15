@@ -45,7 +45,7 @@ Page({
                   //console.info(resRun);
                   //3、解密步骤2的数据；
                   wx.request({
-                    url: 'https://www.sunweb.site/MiniTest/decryptHandler.ashx',
+                    url: '*****',//处理的webapi
                     data: {
                       EncryptedData: resRun.encryptedData,
                       Iv: resRun.iv,
@@ -123,7 +123,7 @@ Page({
       success: function (resLogin) {
         if (resLogin.code) {
           wx.request({
-            url: 'https://www.sunweb.site/MiniTest/onloginHandler.ashx',
+            url: '*****',//处理的webapi
             data: {
               Code: resLogin.code
             },
@@ -136,7 +136,7 @@ Page({
                   const encryptedData = resRun;
                   //3、解密步骤2的数据；
                   wx.request({
-                    url: 'https://www.sunweb.site/MiniTest/decryptHandler.ashx',
+                    url: '*****',//处理的webapi
                     data: {
                       EncryptedData: resRun.encryptedData,
                       Iv: resRun.iv,
@@ -176,7 +176,7 @@ Page({
                     success: function (res) {
                       if (res.confirm) {
                         wx.request({
-                          url: 'https://www.sunweb.site/MiniTest/onloginHandler.ashx',
+                          url: '*****',//处理的webapi
                           data: {
                             Code: resLogin.code
                           },
